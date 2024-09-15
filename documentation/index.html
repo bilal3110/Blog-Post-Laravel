@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="assets/css/bootstrap4.0.0.min.css">
+  <title>Documentation</title>
+</head>
+
+<body>
+  <div id="wrapper">
+    <header class="bg-dark text-white p-2">
+      <h1 class="text-center">Laravel Project Guide</h1>
+    </header>
+    <section>
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="card mt-3 tab-card">
+              <div class="card-header tab-card-header">
+                <ul class="nav nav-tabs card-header-tabs" id="myTab" role="tablist">
+                  <li class="nav-item">
+                    <a class="nav-link" id="one-tab" data-toggle="tab" href="#start" role="tab" aria-controls="One"
+                      aria-selected="true">Start</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" id="two-tab" data-toggle="tab" href="#require" role="tab" aria-controls="Two"
+                      aria-selected="false">Requirements</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" id="three-tab" data-toggle="tab" href="#shots" role="tab" aria-controls="Three"
+                      aria-selected="false">Screenshots</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" id="four-tab" data-toggle="tab" href="#install" role="tab" aria-controls="Four"
+                      aria-selected="false">Installation</a>
+                  </li>
+                </ul>
+              </div>
+
+              <div class="tab-content" id="myTabContent">
+                <div class="tab-pane fade show active p-3" id="start" role="tabpanel" aria-labelledby="one-tab">
+                  <h5 class="card-title">Getting Start</h5>
+                  <p class="card-text">This is simple Blog Post made by using Laravel</p>
+
+                </div>
+                <div class="tab-pane fade p-3" id="require" role="tabpanel" aria-labelledby="two-tab">
+                  <h5 class="card-title">Requiements</h5>
+                  <p class="card-text">
+                  <ul>
+                    <li>
+                      <h6>PHP</h6>
+                    </li>
+                    <li>
+                      <h6>MySQL</h6>
+                    </li>
+                    <li>
+                      <h6>Laravel Framework 9.52.16</h6>
+                    </li>
+                  </ul>
+                  </p>
+
+                </div>
+                <div class="tab-pane fade p-3" id="shots" role="tabpanel" aria-labelledby="three-tab">
+                  <h3 class="card-title">Screenshots</h3>
+                  <p class="card-text">
+                    <h5>Admin Panel</h5>
+                    <img src="images/1.png" width="45%">
+                    <img src="images/2.png" width="45%">
+                    <img src="images/3.png" width="45%">
+                    <img src="images/4.png" width="45%">
+                    <img src="images/5.png" width="100%">
+                    <hr>
+                    <br>
+                    <h5>Main Site</h5>
+                    <img src="images/6.jpeg" width="100%">
+                    <img src="images/7.jpeg" width="100%">
+                  </p>
+                </div>
+                <div class="tab-pane fade p-3" id="install" role="tabpanel" aria-labelledby="four-tab">
+                  <h5 class="card-title">Installation</h5>
+                  <p class="card-text">
+                  <p>Download the Project</p>
+
+                  <ol>
+                    <li>Open Project in any Code Editor, and modify DB name, username, password to your environment.
+                    </li>
+                    <li>Install composer dependencies : <code>composer install</code></li>
+                    <li>An application key can be generated with the command : <code>php artisan key:generate</code>
+                    </li>
+                    <li>Migrate the database : <code>php artisan migrate</code></li>
+                    <li>Seed Demo Data into database : <code>php artisan db:seed</code></li>
+                    <li>Run the artisan serve command : <code>php artisan serve</code></li>
+                    <li>Proceed to : <code>http://127.0.0.1:8000/dashboard</code></li>
+                  </ol>
+
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script src="assets/js/jquery.min.js"></script>
+  <script src="assets/js/bootstrap4.0.0.min.js"></script>
+</body>
+
+</html>
